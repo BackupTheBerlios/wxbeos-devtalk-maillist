@@ -1,0 +1,293 @@
+From mail at projectconceptor.de  Tue Jun 19 21:22:02 2007
+From: mail at projectconceptor.de (Paradoxon)
+Date: Tue, 19 Jun 2007 21:22:02 +0200
+Subject: [Wxbeos-devtalk] =?utf-8?q?wxBeOS_und_wie_geht=C2=B4s_weiter_--_e?=
+ =?utf-8?q?in_paar_Gedanken?=
+Message-ID: <46782CDA.8010003@projectconceptor.de>
+
+He Leute,
+
+vom Projecktconceptor her weiss ich wie schwer es ist unter 
+BeOS/Zeta/Haiku ein Opensourceprojeckt zu starten..
+da ich wirklich kaum bis gar keine Zeit f?r wxBeOS Hab und es euch 
+wahrscheinlich ?hnlich geht habe ich mal die M?glichkeiten ?berdacht.
+
+Heutzutage w?re sowieso eine Web2.0 IDE eigentlich viel viel mehr up to 
+date.. so ala Googleservice.
+Folgende Vorteile sehe ich:
+
+    * kompatibel mit Zeta/Haiku/BeOS (und nebenbei auch noch mit Windoof
+      und Mac und Linux *g* mehr oder weniger :))
+    * viel gr??ere potentielle Entwicklergemeinde
+    * viele vorgefertigte Bausteine
+          o syntax highlighting
+                + http://code.google.com/p/syntaxhighlighter/
+                + http://helene.muze.nl/
+          o autocomplete
+                + http://www.codeproject.com/jscript/jsactb.asp
+          o userverwaltung (um wie bei subversion zusammen zu arbeiten)
+                + www.joomla.org
+                + www.drupal.de
+                + ...
+          o und online compilieren geht auch... (hier w?re es cool wenn
+            man ?ber php auf virtuelle maschienen zugreifen k?nnte... )
+                + http://www.codeide.com/
+          o Autobackup durch Webhoster
+          o .....
+
+Das waren ?berlegungen, ich denke pers?nlich, das das wohl die 
+effektivere und besser Methode f?r ne richtig geniale IDE w?re.
+
+Nur mal so zum dr?ber nachdenken (mit googel gears kann man ja jetzt 
+auch schon "offline" mit websiten arbeiten.. allerdings haut das ja noch 
+nicht unter BeOS - Klones)
+Was denkt ihr... sollten wir anstatt wxBeOS zu porten "einfach" die 
+Bausteine zusammenschmei?en und ne coole opensource online IDE bauen..??
+
+gby
+Matthias
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/wxbeos-devtalk/attachments/20070619/e8151fc3/attachment.html>
+
+From ladar at gmx.net  Wed Jun 20 12:12:59 2007
+From: ladar at gmx.net (Emil Ladar)
+Date: Wed, 20 Jun 2007 12:12:59 +0200
+Subject: [Wxbeos-devtalk]
+ =?utf-8?q?wxBeOS_und_wie_geht=C2=B4s_weiter_--_e?=
+ =?utf-8?q?in_paar_Gedanken?=
+In-Reply-To: <46782CDA.8010003@projectconceptor.de>
+References: <46782CDA.8010003@projectconceptor.de>
+Message-ID: <4678FDAB.7080203@gmx.net>
+
+Hallo Leute,
+
+habe bisher die Mailingliste nur lesend verfolgt.
+Bin selbst ein grosser Fan von BeOS/Haiku, kann aber 
+programmiertechnisch wenig dazu beitragen.
+Als Arzt  besch?ftige ich mich nebenbei mit der Nutzung einer WiiMote 
+f?r diagnostische Zwecke
+und bringe mir dabei ein wenig C++ bei. Dabei habe ich auch schon ein 
+Bisschen mit wxWidgets rumgespielt und
+solche Anwendung gefallen mir gut, weil sie im Gegensatz zu Java schnell 
+reagieren(gerade in meinem Bereich, der  Radiologie kann man sich 
+schnelle Rechner und Anwendungen nur w?nschen). Und 
+Schnelligkeit/Responsiveness ist das Hauptding, das mich an BeOS/Haiku 
+interessiert und begeistert.
+
+Was sogenannte WebOSs angeht, so war mein Verst?ndnis immer, dass die 
+Browser immer mehr F?higkeiten mitbringen und das darunterliegende OS 
+nicht viel k?nnen muss, womit die Browser zur eigentlichen Platform werden.
+Derletzt war auch ein Artikel bei osnews.com zum Thema WebOS:
+(http://osnews.com/story.php/18099/Another-10-Web-Operating-Systems-Reviewed/).
+
+Office Anwendungen m?gen noch gut online laufen und sicher wird der 
+Transport(Backbones) immer schneller.
+Es wird jedoch Anwendungen geben die in absehbarer Zeit nicht 
+online-f?hig sind.
+
+Ich denke da an Musikprogramme wie Cubase/Traktor DJ/Premiere oder 
+nat?rlich 3D-Radiologieprogramme.
+Online - coding habe ich noch nicht gesehen.
+
+Ausserdem - in welchem Masse w?re eine solche Oberfl?che von grossen 
+application-providern wie Google abh?ngig?
+Ich bin sehr freiheitsliebend und m?chte die Sachen schon auf meiner 
+Kiste laufen haben.
+?bersehe ich da einen unumkehrbaren Trend ?
+
+Beste Gr??e
+
+Emil
+
+
+
+Paradoxon schrieb:
+> He Leute,
+>
+> vom Projecktconceptor her weiss ich wie schwer es ist unter 
+> BeOS/Zeta/Haiku ein Opensourceprojeckt zu starten..
+> da ich wirklich kaum bis gar keine Zeit f?r wxBeOS Hab und es euch 
+> wahrscheinlich ?hnlich geht habe ich mal die M?glichkeiten ?berdacht.
+>
+> Heutzutage w?re sowieso eine Web2.0 IDE eigentlich viel viel mehr up 
+> to date.. so ala Googleservice.
+> Folgende Vorteile sehe ich:
+>
+>     * kompatibel mit Zeta/Haiku/BeOS (und nebenbei auch noch mit
+>       Windoof und Mac und Linux *g* mehr oder weniger :))
+>     * viel gr??ere potentielle Entwicklergemeinde
+>     * viele vorgefertigte Bausteine
+>           o syntax highlighting
+>                 + http://code.google.com/p/syntaxhighlighter/
+>                 + http://helene.muze.nl/
+>           o autocomplete
+>                 + http://www.codeproject.com/jscript/jsactb.asp
+>           o userverwaltung (um wie bei subversion zusammen zu arbeiten)
+>                 + www.joomla.org
+>                 + www.drupal.de
+>                 + ...
+>           o und online compilieren geht auch... (hier w?re es cool
+>             wenn man ?ber php auf virtuelle maschienen zugreifen
+>             k?nnte... )
+>                 + http://www.codeide.com/
+>           o Autobackup durch Webhoster
+>           o .....
+>
+> Das waren ?berlegungen, ich denke pers?nlich, das das wohl die 
+> effektivere und besser Methode f?r ne richtig geniale IDE w?re.
+>
+> Nur mal so zum dr?ber nachdenken (mit googel gears kann man ja jetzt 
+> auch schon "offline" mit websiten arbeiten.. allerdings haut das ja 
+> noch nicht unter BeOS - Klones)
+> Was denkt ihr... sollten wir anstatt wxBeOS zu porten "einfach" die 
+> Bausteine zusammenschmei?en und ne coole opensource online IDE bauen..??
+>
+> gby
+> Matthias
+>
+>
+> ------------------------------------------------------------------------
+>
+> _______________________________________________
+> Wxbeos-devtalk mailing list
+> Wxbeos-devtalk at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/wxbeos-devtalk
+>   
+
+
+
+From mail at projectconceptor.de  Wed Jun 20 13:00:45 2007
+From: mail at projectconceptor.de (Paradoxon)
+Date: Wed, 20 Jun 2007 13:00:45 +0200
+Subject: [Wxbeos-devtalk]
+ =?utf-8?q?wxBeOS_und_wie_geht=C2=B4s_weiter_--_e?=
+ =?utf-8?q?in_paar_Gedanken?=
+Message-ID: <467908DD.3010402@projectconceptor.de>
+
+Danke Emil f?r deine geniale Mail
+
+dazu muss ich glaube ich noch einiges erkl?ren :)
+Wir wxBeOSler hatten uns urspr?nglich zusammengetan (korrigiert mich 
+wenn ich falsch liege), weil wir Code:Blocks nach BeOS protieren 
+wollten.. und daf?r sind die wxWidgets notwendig.
+
+Grund daf?r ist, dass es derzeit unter BeOS und Co. kein sinnvolle 
+up-to-date IDE (Entwicklungsumgebung) gibt.
+
+Da wir aber alle wenig bis keine Zeit haben und die meisten auch wenig 
+Erfahrung mit Portierung haben, w?rde das ein Unterfangen von mehreren 
+Jahren. - Au?erdem werden wahrscheinlich wenig Leute aktiv mitarbeiten 
+(erfahrungswerte - die BeOS kommunity ist sehr klein)
+
+Somit w?re die Erreichung des Ziel eine gute, IDE schneller m?glich, 
+wenn wir einfach das ganze als online Version umsetzen w?rden.
+
+Goggel hatte ich nur als Beispiel genutzt, da unsere Abteileung den 
+Service massiv nutzt. z.b.: Googel Calendar um uns gegenseitig 
+terminlich abzustimmen, Googel docs und spreadsheet um gemeisame 
+Dokumente zu bearbeiten.
+
+Und so gesehen ist eine gute IDE auch "nichts" weiter als ein erweiteret 
+Texteditor :) .... Von daher w?rde es sinnmachen und auch Responsivness 
+w?re nicht so n?tig.
+
+Aber ich verstehe deinen Punkt und es ist sehr gut zu wissen, dass 
+interesse an dem Port besteht.
+
+gby
+Matthias
+
+> Hallo Leute,
+>
+> habe bisher die Mailingliste nur lesend verfolgt.
+> Bin selbst ein grosser Fan von BeOS/Haiku, kann aber 
+> programmiertechnisch wenig dazu beitragen.
+> Als Arzt  besch?ftige ich mich nebenbei mit der Nutzung einer WiiMote 
+> f?r diagnostische Zwecke
+> und bringe mir dabei ein wenig C++ bei. Dabei habe ich auch schon ein 
+> Bisschen mit wxWidgets rumgespielt und
+> solche Anwendung gefallen mir gut, weil sie im Gegensatz zu Java schnell 
+> reagieren(gerade in meinem Bereich, der  Radiologie kann man sich 
+> schnelle Rechner und Anwendungen nur w?nschen). Und 
+> Schnelligkeit/Responsiveness ist das Hauptding, das mich an BeOS/Haiku 
+> interessiert und begeistert.
+>
+> Was sogenannte WebOSs angeht, so war mein Verst?ndnis immer, dass die 
+> Browser immer mehr F?higkeiten mitbringen und das darunterliegende OS 
+> nicht viel k?nnen muss, womit die Browser zur eigentlichen Platform werden.
+> Derletzt war auch ein Artikel bei osnews.com zum Thema WebOS:
+> (http://osnews.com/story.php/18099/Another-10-Web-Operating-Systems-Reviewed/).
+>
+> Office Anwendungen m?gen noch gut online laufen und sicher wird der 
+> Transport(Backbones) immer schneller.
+> Es wird jedoch Anwendungen geben die in absehbarer Zeit nicht 
+> online-f?hig sind.
+>
+> Ich denke da an Musikprogramme wie Cubase/Traktor DJ/Premiere oder 
+> nat?rlich 3D-Radiologieprogramme.
+> Online - coding habe ich noch nicht gesehen.
+>
+> Ausserdem - in welchem Masse w?re eine solche Oberfl?che von grossen 
+> application-providern wie Google abh?ngig?
+> Ich bin sehr freiheitsliebend und m?chte die Sachen schon auf meiner 
+> Kiste laufen haben.
+> ?bersehe ich da einen unumkehrbaren Trend ?
+>
+> Beste Gr??e
+>
+> Emil
+>
+>
+>
+> Paradoxon schrieb:
+>   
+>> > He Leute,
+>> >
+>> > vom Projecktconceptor her weiss ich wie schwer es ist unter 
+>> > BeOS/Zeta/Haiku ein Opensourceprojeckt zu starten..
+>> > da ich wirklich kaum bis gar keine Zeit f?r wxBeOS Hab und es euch 
+>> > wahrscheinlich ?hnlich geht habe ich mal die M?glichkeiten ?berdacht.
+>> >
+>> > Heutzutage w?re sowieso eine Web2.0 IDE eigentlich viel viel mehr up 
+>> > to date.. so ala Googleservice.
+>> > Folgende Vorteile sehe ich:
+>> >
+>> >     * kompatibel mit Zeta/Haiku/BeOS (und nebenbei auch noch mit
+>> >       Windoof und Mac und Linux *g* mehr oder weniger :))
+>> >     * viel gr??ere potentielle Entwicklergemeinde
+>> >     * viele vorgefertigte Bausteine
+>> >           o syntax highlighting
+>> >                 + http://code.google.com/p/syntaxhighlighter/
+>> >                 + http://helene.muze.nl/
+>> >           o autocomplete
+>> >                 + http://www.codeproject.com/jscript/jsactb.asp
+>> >           o userverwaltung (um wie bei subversion zusammen zu arbeiten)
+>> >                 + www.joomla.org
+>> >                 + www.drupal.de
+>> >                 + ...
+>> >           o und online compilieren geht auch... (hier w?re es cool
+>> >             wenn man ?ber php auf virtuelle maschienen zugreifen
+>> >             k?nnte... )
+>> >                 + http://www.codeide.com/
+>> >           o Autobackup durch Webhoster
+>> >           o .....
+>> >
+>> > Das waren ?berlegungen, ich denke pers?nlich, das das wohl die 
+>> > effektivere und besser Methode f?r ne richtig geniale IDE w?re.
+>> >
+>> > Nur mal so zum dr?ber nachdenken (mit googel gears kann man ja jetzt 
+>> > auch schon "offline" mit websiten arbeiten.. allerdings haut das ja 
+>> > noch nicht unter BeOS - Klones)
+>> > Was denkt ihr... sollten wir anstatt wxBeOS zu porten "einfach" die 
+>> > Bausteine zusammenschmei?en und ne coole opensource online IDE bauen..??
+>> >
+>> > gby
+>> > Matthias
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/wxbeos-devtalk/attachments/20070620/29679bd6/attachment.html>
+

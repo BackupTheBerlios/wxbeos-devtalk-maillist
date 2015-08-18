@@ -1,0 +1,22 @@
+From mail at projectconceptor.de  Tue May  8 09:41:33 2007
+From: mail at projectconceptor.de (Paradoxon)
+Date: Tue, 08 May 2007 09:41:33 +0200
+Subject: [Wxbeos-devtalk] Erstes mal kompilieren
+In-Reply-To: <45FA5A2F.6060005@projectconceptor.de>
+References: <mailman.0.1174003450.18972.wxbeos-devtalk@lists.berlios.de>	<1174003490.6259.1.camel@amdAC.ACnet>
+	<45FA5A2F.6060005@projectconceptor.de>
+Message-ID: <464029AD.20906@projectconceptor.de>
+
+Hi all :)
+
+mal nur ne Frage.. da ich im Moment ein nur bedingt lauff?higes Zeta 
+hab... kann jemand von euch mal wxBeOs runterladen und versuchen 
+compilieren und dann hier die Fehlermeldungen reinstellen?
+
+
+Danke
+
+gby
+Matthias
+
+

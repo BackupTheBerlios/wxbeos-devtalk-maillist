@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Wxbeos-devtalk] zeta fixes &amp; makefile.
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/wxbeos-devtalk/2008-February/index.html" >
+   <LINK REL="made" HREF="mailto:wxbeos-devtalk%40lists.berlios.de?Subject=Re%3A%20%5BWxbeos-devtalk%5D%20zeta%20fixes%20%26%20makefile.&In-Reply-To=%3C19245047388-BeMail%40laptop%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   <LINK REL="Next"  HREF="000010.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Wxbeos-devtalk] zeta fixes &amp; makefile.</H1>
+    <B>wxbeos-devtalk at lists.berlios.de</B> 
+    <A HREF="mailto:wxbeos-devtalk%40lists.berlios.de?Subject=Re%3A%20%5BWxbeos-devtalk%5D%20zeta%20fixes%20%26%20makefile.&In-Reply-To=%3C19245047388-BeMail%40laptop%3E"
+       TITLE="[Wxbeos-devtalk] zeta fixes &amp; makefile.">wxbeos-devtalk at lists.berlios.de
+       </A><BR>
+    <I>Sat Feb 16 01:00:46 CET 2008</I>
+    <P><UL>
+        
+        <LI>Next message: <A HREF="000010.html">[Wxbeos-devtalk] zeta fixes &amp; makefile.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#9">[ date ]</a>
+              <a href="thread.html#9">[ thread ]</a>
+              <a href="subject.html#9">[ subject ]</a>
+              <a href="author.html#9">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi there,
+I recently checked wxWidgets as I wanted to start porting it, and I 
+noticed there was a project on berlios I didn't know about...
+
+I checked out the svn (quite huge) and tried to build, but the BeIDE 
+proj files are not really handy. They don't scale, have to be changed 
+to change the arch, don't work nice with svn (binary), and don't work 
+at all with recent gcc (from oliver tappe) as cpp changed its syntax 
+and BeIDE screws up.
+
+I managed to finally get the lib built with different devkits (one gcc 
+to compile and the older one to link...) but it's not handy.
+
+I wrote a makefile.beos to make things easier, see the diff.
+There is no real reason to not use configure generated makefiles 
+though, just have to fix it to include the gui stuff. But I guess it's 
+ok for now.
+
+I also had to change some stuff to build under Zeta... gcc didn't like 
+casting int32 to int&amp;, and the FamilyAndStyle stuff is private in 
+Dano... (it doesn't seem like the correct way anyway, should probably 
+use font_which and face stuff).
+Also, the absolute symlinks might work on your own box, but not on 
+everyone's.
+
+See
+<A HREF="http://revolf.free.fr/beos/patches/wxBeos.diff.001.txt">http://revolf.free.fr/beos/patches/wxBeos.diff.001.txt</A>
+
+I didn't dig much more, it'd be likely better to update to the current 
+version first anyway.
+
+Fran&#231;ois.
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	<LI>Next message: <A HREF="000010.html">[Wxbeos-devtalk] zeta fixes &amp; makefile.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#9">[ date ]</a>
+              <a href="thread.html#9">[ thread ]</a>
+              <a href="subject.html#9">[ subject ]</a>
+              <a href="author.html#9">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/wxbeos-devtalk">More information about the Wxbeos-devtalk
+mailing list</a><br>
+</body></html>

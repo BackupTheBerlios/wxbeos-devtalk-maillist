@@ -1,0 +1,86 @@
+From mail at projectconceptor.de  Thu Mar 15 21:34:14 2007
+From: mail at projectconceptor.de (Paradoxon)
+Date: Thu, 15 Mar 2007 21:34:14 +0100
+Subject: [Wxbeos-devtalk] Test
+Message-ID: <45F9ADC6.5010905@projectconceptor.de>
+
+Das ist die Erste Testmail
+
+
+From tombhadAC at gmx.de  Fri Mar 16 01:04:49 2007
+From: tombhadAC at gmx.de (Daniel =?ISO-8859-1?Q?W=FCnsch?=)
+Date: Fri, 16 Mar 2007 01:04:49 +0100
+Subject: [Wxbeos-devtalk]  Re: Test
+In-Reply-To: <mailman.0.1174003450.18972.wxbeos-devtalk@lists.berlios.de>
+References: <mailman.0.1174003450.18972.wxbeos-devtalk@lists.berlios.de>
+Message-ID: <1174003490.6259.1.camel@amdAC.ACnet>
+
+Und dies eine Test-Antwort ;)
+
+
+
+From mail at projectconceptor.de  Fri Mar 16 09:49:51 2007
+From: mail at projectconceptor.de (Paradoxon)
+Date: Fri, 16 Mar 2007 09:49:51 +0100
+Subject: [Wxbeos-devtalk] Test
+In-Reply-To: <1174003490.6259.1.camel@amdAC.ACnet>
+References: <mailman.0.1174003450.18972.wxbeos-devtalk@lists.berlios.de>
+	<1174003490.6259.1.camel@amdAC.ACnet>
+Message-ID: <45FA5A2F.6060005@projectconceptor.de>
+
+So hier mal ein paar Ausz?ge aus einem mail-Schlagabtausch mit Finn:
+
+> Wie gehen wir am besten vor (abgesehen davon, dass ich noch versuchen 
+> will, Kontakt zu Ken Crandall zu bekommen)? Hast du schon was f?rs 
+> Projekt tun k?nnen?
+>   
+Nein absolut nicht, da ich in meinem Studium nicht wirklich hinter 
+herkomme (vor allem Griechisch lernen ist echt super hart f?r mich)
+Naja hab es mal versucht unter Zeta (ein Bastardmix aus 1.0 und  (Beta) 
+1.2 oder so... aber richtig sch?n stabil *g*) zu compilieren.. aber eher 
+halbherzig...
+Bin bereits an ner falschen Version von autoconfig gescheitert.
+
+> Ich habe drac mal im Forum gefragt, ob er sich beteiligen will. Mal 
+> sehen, was f?r eine Reaktion kommt.
+>
+> Ich hatte ja fr?her schon mal die Ambition, einen Port zu starten 
+> (siehe auch wxdevel-Mailingliste, M?rz 06, da hat mich einer der 
+> Entwickler auf diesen hilfreichen Thread hingewiesen:
+>
+> http://thread.gmane.org/gmane.comp.lib.wxwidgets.devel/65810
+>
+> Vor allem das letzte Posting in dem Thread, vom User ABX, ist sehr 
+> hilfreich, da er eine Liste der ersten Schritte aufstellt.
+>   
+Cool das ist echt genial hilft sicher sehr viel
+Ok also folgendes hab ich gedacht(bevor ich den Thread gelesen hab):
+1. Taskliste anfertigen auf Berlios
+2. Tasks verteilen .. (auf wunsch :))
+3. Eventuell versuchen (in Zusammenarbeit mit solchen Portprofis wie 
+RafaelK  wenigstens die "basis" (also das ganze ohne UI) zum kompilieren 
+bekommen)
+4. Schritt f?r Schritt die UI anpassen
+
+Ok also ?berarbeitet w?rde das hei?en
+1. Auf einen Ausgangsport einigen (ich denke fast mit Windows oder Linux 
+kommt man gut hin oder???...*gr?bel* )
+2. Taskliste anfertigen auf Berlios
+3. Tasks verteilen .. (auf wunsch :))
+4. Die vorgeschlagegen Schritte durchf?hren (cpp l?schen)
+5. UI Classen festelegen die protiert werden m?ssen (ungef?hren Aufand 
+pro Classe evnetuell absch?tzen)
+6. das ganze in die Taskliste eintrage
+7. die Tasks verteilen :)
+
+Soweit ersteinmal dazu...
+Hab halt noch keine wirklichen Erfahrungen... au?erdem im Moment 
+wirklich kaum Zeit..
+
+gby
+Matthias
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/wxbeos-devtalk/attachments/20070316/4707d6ed/attachment.html>
+

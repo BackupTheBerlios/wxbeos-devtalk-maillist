@@ -1,0 +1,167 @@
+From wxbeos-devtalk at lists.berlios.de  Sat Feb 16 01:00:46 2008
+From: wxbeos-devtalk at lists.berlios.de (wxbeos-devtalk at lists.berlios.de)
+Date: Sat, 16 Feb 2008 01:00:46 +0100 CET
+Subject: [Wxbeos-devtalk] zeta fixes & makefile.
+Message-ID: <19245047388-BeMail@laptop>
+
+Hi there,
+I recently checked wxWidgets as I wanted to start porting it, and I 
+noticed there was a project on berlios I didn't know about...
+
+I checked out the svn (quite huge) and tried to build, but the BeIDE 
+proj files are not really handy. They don't scale, have to be changed 
+to change the arch, don't work nice with svn (binary), and don't work 
+at all with recent gcc (from oliver tappe) as cpp changed its syntax 
+and BeIDE screws up.
+
+I managed to finally get the lib built with different devkits (one gcc 
+to compile and the older one to link...) but it's not handy.
+
+I wrote a makefile.beos to make things easier, see the diff.
+There is no real reason to not use configure generated makefiles 
+though, just have to fix it to include the gui stuff. But I guess it's 
+ok for now.
+
+I also had to change some stuff to build under Zeta... gcc didn't like 
+casting int32 to int&, and the FamilyAndStyle stuff is private in 
+Dano... (it doesn't seem like the correct way anyway, should probably 
+use font_which and face stuff).
+Also, the absolute symlinks might work on your own box, but not on 
+everyone's.
+
+See
+http://revolf.free.fr/beos/patches/wxBeos.diff.001.txt
+
+I didn't dig much more, it'd be likely better to update to the current 
+version first anyway.
+
+Fran?ois.
+
+
+From wxbeos-devtalk at lists.berlios.de  Sat Feb 16 09:39:41 2008
+From: wxbeos-devtalk at lists.berlios.de (wxbeos-devtalk at lists.berlios.de)
+Date: Sat, 16 Feb 2008 09:39:41 +0100
+Subject: [Wxbeos-devtalk] zeta fixes & makefile.
+In-Reply-To: <19245047388-BeMail@laptop>
+References: <19245047388-BeMail@laptop>
+Message-ID: <47B6A14D.9050609@projectconceptor.de>
+
+Hi Fran?ois,
+
+thanks for you work!
+You are right. The first thing on our scedule was to add makefiles.
+At this time now.. everything in the repository are from Anton.
+He did all the work.
+
+All Teammembers are higly motivated but most of them dont have so much time.
+
+So if you want to join i can easly add you to the developerlist if you want.
+(I know you are already registered on berlios mmu_man 
+<https://developer.berlios.de/users/mmu_man/> ;-) )
+
+I must konfess this is my first patch i aplly so i dont know if 
+everything went right.
+Would be great if you can check it.
+
+God Bless
+Paradoxon aka Matthias
+
+
+
+
+wxbeos-devtalk at lists.berlios.de schrieb:
+> Hi there,
+> I recently checked wxWidgets as I wanted to start porting it, and I 
+> noticed there was a project on berlios I didn't know about...
+>
+> I checked out the svn (quite huge) and tried to build, but the BeIDE 
+> proj files are not really handy. They don't scale, have to be changed 
+> to change the arch, don't work nice with svn (binary), and don't work 
+> at all with recent gcc (from oliver tappe) as cpp changed its syntax 
+> and BeIDE screws up.
+>
+> I managed to finally get the lib built with different devkits (one gcc 
+> to compile and the older one to link...) but it's not handy.
+>
+> I wrote a makefile.beos to make things easier, see the diff.
+> There is no real reason to not use configure generated makefiles 
+> though, just have to fix it to include the gui stuff. But I guess it's 
+> ok for now.
+>
+> I also had to change some stuff to build under Zeta... gcc didn't like 
+> casting int32 to int&, and the FamilyAndStyle stuff is private in 
+> Dano... (it doesn't seem like the correct way anyway, should probably 
+> use font_which and face stuff).
+> Also, the absolute symlinks might work on your own box, but not on 
+> everyone's.
+>
+> See
+> http://revolf.free.fr/beos/patches/wxBeos.diff.001.txt
+>
+> I didn't dig much more, it'd be likely better to update to the current 
+> version first anyway.
+>
+> Fran?ois.
+> _______________________________________________
+> Wxbeos-devtalk mailing list
+> Wxbeos-devtalk at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/wxbeos-devtalk
+>
+>   
+
+
+-- 
+Matthias Lindner
+Lazarettstr. 10
+
+45127 Essen
+
+Tel/Fax.: 0201-2480986
+Mail:	mail at projectconceptor.de
+
+
+www.online-mit-gott.de
+trinitas.berlios.de
+www.fishers-girl.de
+www.projectconceptor.de
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/wxbeos-devtalk/attachments/20080216/fbee5d19/attachment.html>
+
+From wxbeos-devtalk at lists.berlios.de  Wed Feb 20 00:50:14 2008
+From: wxbeos-devtalk at lists.berlios.de (wxbeos-devtalk at lists.berlios.de)
+Date: Wed, 20 Feb 2008 00:50:14 +0100 CET
+Subject: [Wxbeos-devtalk] zeta fixes & makefile.
+In-Reply-To: <47B6A14D.9050609@projectconceptor.de>
+Message-ID: <1618063672-BeMail@laptop>
+
+> Hi Fran?ois,
+> 
+> thanks for you work!
+> You are right. The first thing on our scedule was to add makefiles.
+> At this time now.. everything in the repository are from Anton.
+> He did all the work.
+> 
+> All Teammembers are higly motivated but most of them dont have so 
+> much time.
+> 
+> So if you want to join i can easly add you to the developerlist if 
+> you want.
+> (I know you are already registered on berlios mmu_man 
+> <https://developer.berlios.de/users/mmu_man/> ;-) )
+
+I don't have much time either, but if someday I get bored...
+
+> 
+> I must konfess this is my first patch i aplly so i dont know if 
+> everything went right.
+> Would be great if you can check it.
+
+Seems ok mostly, except the makefile.beos, you seem to have applied the 
+patch 3 times, making the file have 3 times the same content, and it 
+also has DOS CR-LF.
+
+Fran?ois.
+
+

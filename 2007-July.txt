@@ -1,0 +1,36 @@
+From mail at projectconceptor.de  Tue Jul 10 09:09:48 2007
+From: mail at projectconceptor.de (Paradoxon)
+Date: Tue, 10 Jul 2007 09:09:48 +0200
+Subject: [Wxbeos-devtalk] wxBeOS - es geht los
+Message-ID: <469330BC.8070008@projectconceptor.de>
+
+So Leute,
+
+wxKnorr hat seinen ersten Committs gemacht,
+
+schauts euch an... ich versuche gerade von ihm die Liste der noch zu 
+portierenden Classen zu bekommen, so dass wir die Arbeit ein wenig 
+aufteilen k?nnen.
+Derzeit ist es "nur" als ein BeIDE Projekt vorhanden, makefile k?nnt ihr 
+gern schreibne.. wenn ihr es nicht wollt, werde ich ein schreiben 
+allerdings wirds bei mir ca 3 Wochen dauern, da ich auf nem Sommerlager 
+mitarbeite.
+
+gby
+Matthias
+
+-- 
+Matthias Lindner
+Lazarettstr. 10
+
+45127 Essen
+
+Tel/Fax.: 0201-2480986
+Mail:	all4god at web.de
+
+www.online-mit-gott.de
+www.fishers-girl.de
+www.projectconceptor.de
+
+
+

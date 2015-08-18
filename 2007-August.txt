@@ -1,0 +1,28 @@
+From mail at projectconceptor.de  Tue Aug  7 16:07:15 2007
+From: mail at projectconceptor.de (Paradoxon)
+Date: Tue, 07 Aug 2007 16:07:15 +0200
+Subject: [Wxbeos-devtalk] [Fwd: Erste commit beendet.]
+Message-ID: <46B87C93.2090309@projectconceptor.de>
+
+
+-- 
+Matthias Lindner
+Lazarettstr. 10
+
+45127 Essen
+
+Tel/Fax.: 0201-2480986
+Mail:	all4god at web.de
+
+www.online-mit-gott.de
+www.fishers-girl.de
+www.projectconceptor.de
+
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Anton Sokolov <abiword at nm.ru>
+Subject: Erste commit beendet.
+Date: Tue, 07 Aug 2007 22:41:23 +0900
+Size: 1308
+URL: <https://lists.berlios.de/pipermail/wxbeos-devtalk/attachments/20070807/099ca052/attachment.eml>
+
